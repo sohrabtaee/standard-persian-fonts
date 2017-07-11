@@ -1,3 +1,3 @@
-# standard-persian-fonts
+# Standard Persian Fonts
 
 > Standard Persian Fonts
