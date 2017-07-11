@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Xero Sans';
+    src: url('normal/xero-sans-normal.eot');
+    src: url('normal/xero-sans-normal.eot?#iefix') format('embedded-opentype'),
+    url('normal/xero-sans-normal.svg#Elusive-Icons') format('svg'),
+    url('normal/xero-sans-normal.woff') format('woff'),
+    url('normal/xero-sans-normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}

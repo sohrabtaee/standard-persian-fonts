@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Vizheh Azad';
+    font-weight: normal;
+    src: url('normal/vizheh-azad-normal.woff2') format('woff2'),
+    url('normal/vizheh-azad-normal.woff') format('woff'),
+    url('normal/vizheh-azad-normal.ttf') format('truetype');
+}

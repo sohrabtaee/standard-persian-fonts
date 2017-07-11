@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Milad Azad';
+    font-weight: normal;
+    src: url('normal/milad-azad-normal.woff2') format('woff2'),
+    url('normal/milad-azad-normal.woff') format('woff'),
+    url('normal/milad-azad-normal.ttf') format('truetype');
+}

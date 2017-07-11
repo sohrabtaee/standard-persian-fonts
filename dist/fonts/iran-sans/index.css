@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Iran Sans';
+    font-weight: 200;
+    src: url('ultra-light/iran-sans-ultra-light.eot');
+    src: url('ultra-light/iran-sans-ultra-light.eot#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('ultra-light/iran-sans-ultra-light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('ultra-light/iran-sans-ultra-light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('ultra-light/iran-sans-ultra-light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Iran Sans';
+    font-weight: 300;
+    src: url('light/iran-sans-light.eot');
+    src: url('light/iran-sans-light.eot#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('light/iran-sans-light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('light/iran-sans-light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('light/iran-sans-light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Iran Sans';
+    font-weight: normal;
+    src: url('normal/iran-sans-normal.eot');
+    src: url('normal/iran-sans-normal.eot#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('normal/iran-sans-normal.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('normal/iran-sans-normal.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('normal/iran-sans-normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Iran Sans';
+    font-weight: 500;
+    src: url('medium/iran-sans-medium.eot');
+    src: url('medium/iran-sans-medium.eot#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('medium/iran-sans-medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('medium/iran-sans-medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('medium/iran-sans-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Iran Sans';
+    font-weight: bold;
+    src: url('bold/iran-sans-bold.eot');
+    src: url('bold/iran-sans-bold.eot#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('bold/iran-sans-bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('bold/iran-sans-bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('bold/iran-sans-bold.ttf') format('truetype');
+}

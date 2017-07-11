@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Samim';
+    font-weight: normal;
+    src: url('normal/samim-normal.eot');
+    src: url('normal/samim-normal.eot?#iefix') format('embedded-opentype'),
+    url('normal/samim-normal.woff') format('woff'),
+    url('normal/samim-normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Samim';
+    font-weight: bold;
+    src: url('bold/samim-bold.eot');
+    src: url('bold/samim-bold.eot?#iefix') format('embedded-opentype'),
+    url('bold/samim-bold.woff') format('woff'),
+    url('bold/samim-bold.ttf') format('truetype');
+}

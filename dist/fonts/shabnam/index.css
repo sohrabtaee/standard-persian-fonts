@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Shabnam';
+    font-weight: normal;
+    src: url('normal/shabnam-normal.eot');
+    src: url('normal/shabnam-normal.eot?#iefix') format('embedded-opentype'),
+    url('normal/shabnam-normal.woff') format('woff'),
+    url('normal/shabnam-normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    font-weight: bold;
+    src: url('bold/shabnam-bold.eot');
+    src: url('bold/shabnam-bold.eot?#iefix') format('embedded-opentype'),
+    url('bold/shabnam-bold.woff') format('woff'),
+    url('bold/shabnam-bold.ttf') format('truetype');
+}

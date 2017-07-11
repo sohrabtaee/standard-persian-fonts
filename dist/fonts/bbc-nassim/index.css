@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'BBC Nassim';
+    font-weight: normal;
+    src: url('normal/bbc-nassim-normal.eot');
+    src: url('normal/bbc-nassim-normal.eot?#iefix') format('embedded-opentype'),
+    url('normal/bbc-nassim-normal.woff') format('woff'),
+    url('normal/bbc-nassim-normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BBC Nassim';
+    font-weight: bold;
+    src: url('bold/bbc-nassim-bold.eot');
+    src: url('bold/bbc-nassim-bold.eot?#iefix') format('embedded-opentype'),
+    url('bold/bbc-nassim-bold.woff') format('woff'),
+    url('bold/bbc-nassim-bold.ttf') format('truetype');
+}

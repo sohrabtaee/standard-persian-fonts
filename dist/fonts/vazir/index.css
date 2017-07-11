@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Vazir';
+    font-weight: 300;
+    src: url('light/vazir-light.eot');
+    src: url('light/vazir-light.eot?#iefix') format('embedded-opentype'),
+    url('light/vazir-light.woff') format('woff'),
+    url('light/vazir-light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-weight: normal;
+    src: url('normal/vazir-normal.eot');
+    src: url('normal/vazir-normal.eot?#iefix') format('embedded-opentype'),
+    url('normal/vazir-normal.woff') format('woff'),
+    url('normal/vazir-normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-weight: 500;
+    src: url('medium/vazir-medium.eot');
+    src: url('medium/vazir-medium.eot?#iefix') format('embedded-opentype'),
+    url('medium/vazir-medium.woff') format('woff'),
+    url('medium/vazir-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-weight: bold;
+    src: url('bold/vazir-bold.eot');
+    src: url('bold/vazir-bold.eot?#iefix') format('embedded-opentype'),
+    url('bold/vazir-bold.woff') format('woff'),
+    url('bold/vazir-bold.ttf') format('truetype');
+}

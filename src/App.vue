@@ -76,7 +76,7 @@
         name: 'app',
         data () {
             return {
-                weights: ['Ultra light', 'Light', 'Normal', 'Medium', 'Bold'],
+                weights: ['Ultra light', 'Light', 'Normal', 'Medium', 'Bold', 'Black'],
                 filters: {
                     types: [],
                     weights: []
@@ -102,8 +102,8 @@
                         weights: ['normal', 'bold']
                     },
                     {
-                        nameFa: 'گنج نامه سنس',
-                        nameEn: 'Ganj Nameh Sans',
+                        nameFa: 'گنج نامه',
+                        nameEn: 'Ganj Nameh',
                         type: 'sans-serif',
                         weights: ['normal']
                     },
@@ -135,7 +135,7 @@
                         nameFa: 'ساحل',
                         nameEn: 'Sahel',
                         type: 'sans-serif',
-                        weights: ['normal', 'bold']
+                        weights: ['normal', 'bold', 'black']
                     },
                     {
                         nameFa: 'صمیم',
@@ -238,8 +238,8 @@
         font-weight: 700;
     }
 
-    .italic {
-        font-style: italic;
+    .black {
+        font-weight: 900;
     }
 
 </style>
