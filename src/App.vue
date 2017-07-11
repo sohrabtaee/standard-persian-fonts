@@ -38,10 +38,16 @@
                         </div>
                         <div class="panel-body">
                             <label>بر اساس نوع فونت</label>
-                            <div class="checkbox" v-for="type in types">
+                            <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" :value="type | slug"
-                                           @click="filter" v-model="filters.types"> {{type}}
+                                    <input type="checkbox" value="sans-serif"
+                                           @click="filter" v-model="filters.types"> لبه گرد (sans-serif)
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="serif"
+                                           @click="filter" v-model="filters.types"> لبه تیز (serif)
                                 </label>
                             </div>
                         </div>
@@ -71,7 +77,6 @@
         data () {
             return {
                 weights: ['Ultra light', 'Light', 'Normal', 'Medium', 'Bold'],
-                types: ['لبه گرد (sans-serif)', 'لبه تیز (serif)'],
                 filters: {
                     types: [],
                     weights: []
