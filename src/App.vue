@@ -114,6 +114,12 @@
                         weights: ['ultra-light', 'light', 'normal', 'medium', 'bold']
                     },
                     {
+                        nameFa: 'ایران یکان',
+                        nameEn: 'Iran Yekan',
+                        type: 'sans-serif',
+                        weights: ['light', 'normal', 'bold']
+                    },
+                    {
                         nameFa: 'میلاد آزاد',
                         nameEn: 'Milad Azad',
                         type: 'serif',

@@ -147,6 +147,34 @@
 }
 
 @font-face {
+    font-family: "Iran Yekan";
+    src: url("../fonts/iranyekanweblight.eot");
+    src: url("../fonts/iranyekanweblight.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekanweblight.woff") format("woff"), url("../fonts/iranyekanweblight.woff2") format("woff2"), url("../fonts/iranyekanweblight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Iran Yekan";
+    src: url("../fonts/iranyekanwebregular.eot");
+    src: url("../fonts/iranyekanwebregular.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekanwebregular.woff") format("woff"), url("../fonts/iranyekanwebregular.woff2") format("woff2"), url("../fonts/iranyekanwebregular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Iran Yekan";
+    src: url("../fonts/iranyekanwebbold.eot");
+    src: url("../fonts/iranyekanwebbold.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekanwebbold.woff") format("woff"), url("../fonts/iranyekanwebbold.woff2") format("woff2"), url("../fonts/iranyekanwebbold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
+}
+
+.iran-yekan * {
+    font-family: 'Iran Yekan';
+}
+
+@font-face {
     font-family: 'MiladAzad';
     src: url('../fonts/MiladAzad-Regular.woff2') format('woff2'),
     url('../fonts/MiladAzad-Regular.woff') format('woff'),
