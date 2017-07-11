@@ -33,7 +33,10 @@
                 </div>
                 <div class="col-sm-5 col-md-4 col-lg-3">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
+                        <div class="panel-heading clearfix">
+                            <div class="pull-left">
+                                <a class="github-button" href="https://github.com/sohrabtaee/standard-persian-fonts" data-size="large" aria-label="Star sohrabtaee/standard-persian-fonts on GitHub">Star on Github</a>
+                            </div>
                             <h4 class="panel-title">فیلتر</h4>
                         </div>
                         <div class="panel-body">
@@ -219,7 +222,11 @@
     }
 
     .panel {
-        margin-bottom: 3em;
+        margin-bottom: 2em;
+    }
+
+    .panel-heading .pull-left {
+        font-size: 0;
     }
 
     .ultra-light {
