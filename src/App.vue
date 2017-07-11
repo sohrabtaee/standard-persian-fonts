@@ -204,7 +204,7 @@
 
     body {
         direction: rtl;
-        font-family: IRANSans, sans-serif;
+        font-family: 'Iran Sans', sans-serif;
         font-size: 1rem;
     }
 
