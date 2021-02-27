@@ -1,5 +1,5 @@
 <template>
-  <div class="filters">
+  <div class="filters" :class="{ open: showFilters }">
     <div class="panel">
       <div class="panel-heading">
         <h3 class="panel-title">فیلتر</h3>
@@ -34,6 +34,14 @@
       </div>
     </div>
   </div>
+  <button
+    type="button"
+    class="filter-button"
+    @click="showFilters = !showFilters"
+  >
+    {{ showFilters ? '-' : '+' }}
+    فیلتر
+  </button>
 </template>
 
 <script>
@@ -56,6 +64,7 @@ export default {
         types: [],
         weights: [],
       },
+      showFilters: false,
     }
   },
   methods: {
@@ -87,6 +96,39 @@ export default {
   }
   span {
     text-transform: capitalize;
+  }
+}
+
+.filters {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  background-color: white;
+  transform: translateY(100%);
+  transition: transform 0.25s;
+
+  &.open {
+    transform: translateY(0);
+  }
+}
+
+.filter-button {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 10;
+}
+
+@media (min-width: $media-tablet) {
+  .filter-button {
+    display: none;
+  }
+  .filters {
+    transform: translateY(0);
+    position: relative;
+    bottom: auto;
   }
 }
 </style>
