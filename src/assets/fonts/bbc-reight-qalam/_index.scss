@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'BBC Reith Qalam';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./assets/fonts/bbc-reith-qalam/light/bbc-reith-qalam-light.woff2')
+      format('woff2'),
+    url('./assets/fonts/bbc-reith-qalam/light/bbc-reith-qalam-light.woff')
+      format('woff');
+  font-display: optional;
+}
+@font-face {
+  font-family: 'BBC Reith Qalam';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./assets/fonts/bbc-reith-qalam/normal/bbc-reith-qalam-normal.woff2')
+      format('woff2'),
+    url('./assets/fonts/bbc-reith-qalam/normal/bbc-reith-qalam-normal.woff')
+      format('woff');
+  font-display: optional;
+}
+@font-face {
+  font-family: 'BBC Reith Qalam';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./assets/fonts/bbc-reith-qalam/bold/bbc-reith-qalam-bold.woff2')
+      format('woff2'),
+    url('./assets/fonts/bbc-reith-qalam/bold/bbc-reith-qalam-bold.woff')
+      format('woff');
+  font-display: optional;
+}

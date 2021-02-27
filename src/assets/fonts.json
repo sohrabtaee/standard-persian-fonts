@@ -7,6 +7,13 @@
     "weights": ["normal", "bold"]
   },
   {
+    "nameFa": "بی‌بی‌سی ریت قلم",
+    "nameEn": "BBC Reith Qalam",
+    "url": "",
+    "type": "sans-serif",
+    "weights": ["light", "normal", "bold"]
+  },
+  {
     "nameFa": "بهداد",
     "nameEn": "Behdad",
     "url": "https://github.com/font-store/BehdadFont",
