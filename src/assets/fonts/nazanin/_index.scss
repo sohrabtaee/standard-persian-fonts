@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Nazanin';
+  src: url('./assets/fonts/nazanin/normal/nazanin-normal.woff2') format('woff2'),
+    url('./assets/fonts/nazanin/normal/nazanin-normal.woff') format('woff'),
+    url('./assets/fonts/nazanin/normal/nazanin-normal.ttf') format('truetype'),
+    url('./assets/fonts/nazanin/normal/nazanin-normal.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nazanin';
+  src: url('./assets/fonts/nazanin/bold/nazanin-bold.woff2') format('woff2'),
+    url('./assets/fonts/nazanin/bold/nazanin-bold.woff') format('woff'),
+    url('./assets/fonts/nazanin/bold/nazanin-bold.ttf') format('truetype'),
+    url('./assets/fonts/nazanin/bold/nazanin-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}

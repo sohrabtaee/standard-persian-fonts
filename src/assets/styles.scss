@@ -1,0 +1,128 @@
+$bg: darken(white, 7.5%);
+$border: darken(white, 10%);
+$blue: #337ab7;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  direction: rtl;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Iran Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+.ultra-light {
+  font-weight: 200;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.standard-persian-fonts {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.font-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.panel {
+  border: 1px solid $border;
+  border-radius: 5px;
+  margin-bottom: 2em;
+
+  &-heading {
+    background-color: $bg;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    h3 {
+      margin: 0;
+      font-weight: normal;
+    }
+  }
+
+  &-body {
+    display: flex;
+    flex-wrap: wrap;
+
+    .demo {
+      padding: 0 1em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .standard-persian-fonts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .font-list {
+    flex: 0 0 70%;
+  }
+
+  .filters {
+    flex: 0 0 calc(30% - 2em);
+  }
+}
+
+@media (min-width: 992px) {
+  .panel {
+    &-body {
+      .demo {
+        flex: 1 0 50%;
+      }
+    }
+  }
+}

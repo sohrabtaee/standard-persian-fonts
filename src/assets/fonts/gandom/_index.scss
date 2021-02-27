@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Gandom';
+  font-weight: normal;
+  src: url('./assets/fonts/gandom/normal/gandom-normal.eot');
+  src: url('./assets/fonts/gandom/normal/gandom-normal.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/gandom/normal/gandom-normal.woff') format('woff'),
+    url('./assets/fonts/gandom/normal/gandom-normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gandom';
+  font-weight: bold;
+  src: url('./assets/fonts/gandom/bold/gandom-bold.eot');
+  src: url('./assets/fonts/gandom/bold/gandom-bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/gandom/bold/gandom-bold.woff') format('woff'),
+    url('./assets/fonts/gandom/bold/gandom-bold.ttf') format('truetype');
+}
