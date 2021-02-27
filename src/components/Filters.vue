@@ -33,6 +33,7 @@
         </div>
       </div>
     </div>
+    <star-on-github />
   </div>
   <button
     type="button"
@@ -45,8 +46,11 @@
 </template>
 
 <script>
+import StarOnGithub from './StarOnGithub.vue'
+
 export default {
   name: 'filters',
+  components: { StarOnGithub },
   data() {
     return {
       weights: ['ultra-light', 'light', 'normal', 'medium', 'bold', 'black'],
@@ -110,6 +114,10 @@ export default {
   &.open {
     transform: translateY(0);
   }
+
+  .panel {
+    margin-bottom: 0;
+  }
 }
 
 .filter-button {
@@ -129,6 +137,10 @@ export default {
     transform: translateY(0);
     position: relative;
     bottom: auto;
+
+    .panel {
+      margin-bottom: 2em;
+    }
   }
 }
 </style>
